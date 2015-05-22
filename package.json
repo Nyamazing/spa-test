@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/scripts/index.js",
+  "scripts": {
+    "postinstall": "bower install",
+    "bower": "bower"
+  },
+  "author": "",
+  "license": "MIT",
+  "config": {
+    "bower_directory": "app/libraries"
+  },
+  "devDependencies": {
+    "body-parser": "^1.12.2",
+    "bower": "^1.4.1",
+    "express": "^4.12.3",
+    "underscore": "^1.8.3"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "dependencies": {}
+}
